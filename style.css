@@ -1,3 +1,41 @@
+.icon-container{
+    display: flex;
+}
+
+.icon-container h1{
+    color: #28a745;
+    
+}
+
+
+
+
+.start-btn {
+        background: rgb(255, 0, 149);
+        color:white;
+        border:none;
+        padding:8px 12px;
+        border-radius:30px;
+        font-size:12px;
+        font-weight:600px;
+        cursor:pointer;
+        
+        
+}
+
+.icon1{
+    background-color: #666;
+    width:50px;
+    height:50px;
+    
+    color:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:18px;
+}
+
 /*Patient dashboard*/
 
 *{
@@ -513,3 +551,289 @@ header p{
 .text-container {
     text-align: center;
 }
+
+
+
+/* Menu icon css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu-container {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-icon {
+    font-size: 24px;
+    padding: 10px 15px;
+    border: none;
+    background: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    min-width: 180px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-menu a:hover {
+    background: #f1f1f1;
+}
+
+.show {
+    display: block;
+}
+
+
+/* ********LOGIN PAGE***** */
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:Arial, sans-serif;
+    } 
+
+    body1{
+        height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:linear-gradient(135deg, #4facfe, #00f2fe);
+    }
+
+    .login-container{
+        background:#fff;
+        padding:30px;
+        width:350px;
+        border-radius:12px;
+        box-shadow:0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    .login-container h2{
+        text-align:center;
+        margin-bottom:20px;
+        color:#333;
+    }
+
+    .input-group{
+        margin-bottom:15px;
+    }
+
+    .input-group label{
+        display:block;
+        margin-bottom:5px;
+        color:#555;
+    }
+
+    .input-group input{
+        width:100%;
+        padding:12px;
+        border:1px solid #ccc;
+        border-radius:6px;
+        font-size:16px;
+    }
+
+    .btn-login{
+        width:100%;
+        padding:12px;
+        border:none;
+        border-radius:6px;
+        background:#4facfe;
+        color:white;
+        font-size:16px;
+        cursor:pointer;
+        transition:0.3s;
+    }
+
+    .btn-login:hover{
+        background:#2f8df5;
+    }
+
+    #message{
+        margin-top:15px;
+        text-align:center;
+        font-size:14px;
+    }
+
+
+/* *****Logout btn***** */
+.logout-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #1d4ed8;
+    color: white;
+    font-size: 16px;
+
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 50px;
+}
+
+
+
+/* ---*********** Medication Track Card **************88---*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body2{
+    background:#f4f6f9;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:20px;
+}
+
+.card{
+    width:360px;
+    background:#fff;
+    border-radius:15px;
+    padding:20px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+.card h2{
+    text-align:center;
+    color:#333;
+    margin-bottom:20px;
+}
+
+/* Sections */
+.section{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    background-color: #28a745;
+    border-left:5px solid #2196f3;
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.section2{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    background-color: #ffb300;
+    border-left:5px solid #2196f3;
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.icon{
+    width:50px;
+    height:50px;
+    background:#2196f3;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:18px;
+}
+
+
+.details h3{
+    color:#333;
+    margin-bottom:5px;
+}
+
+.details p{
+    color:#666;
+    font-size:14px;
+    
+}
+
+/* Feeling Section */
+.feeling-section{
+    text-align:center;
+    background-color: #ff9800;
+    border-left:5px solid #ffb300;
+    padding:15px;
+    border-radius:10px;
+}
+
+.feeling-section h3{
+    color:#444;
+    margin-bottom:12px;
+}
+
+.emojis{
+    display:flex;
+    justify-content:space-around;
+    font-size:30px;
+}
+
+.emoji{
+    cursor:pointer;
+    transition:transform 0.3s;
+}
+
+.emoji:hover{
+    transform:scale(1.2);
+}
+
+/* Get reminder Button */
+.reminder-btn{
+        background: rgb(255, 0, 149);
+        color:white;
+        border:none;
+        padding:12px 24px;
+        border-radius:30px;
+        font-size:12px;
+        font-weight:600px;
+        cursor:pointer;
+        display:inline-flex;
+        align-items:center;
+        gap:8px;
+        transition:0.3s;
+        width: 50%;
+        
+    }
+
+    
+
+        .reminder-btn:hover{
+        background: #4facfe;
+        transform:translateY(-2px);
+    }
+
+
+    .card-flex {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .get-btn{
+        display: flex;
+        justify-content: flex-end;
+    }
+

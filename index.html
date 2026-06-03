@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>HELVORA HEALTH</title>
 <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 <body>
  
@@ -19,7 +22,7 @@
     </div>
 
 -->
-
+<!------
 <nav class="navbar">
 <div class="nav-container">
 <a href="#" class="nav-logo">HELVORA</a>
@@ -31,12 +34,47 @@
 </ul>
 </div>
 </nav>
+--->
+<div class="icon-container">
+<div class="icon1">
+<i class="fas fa-home"></i>
+</div>
+<h1>HELVORA</h1>
 
-<h1>Welcome to Helvora Health</h1>
+<!-----
+<div class="started-btn">
+
+        <button class="start-btn">
+        Get Started For Free
+        </button>
+</div>
+--->
+
+</div>
+
+
+<div class="menu-container">
+<button class="menu-icon" onclick="toggleMenu()">
+    ☰
+</button>
+
+<div id="dropdownMenu" class="dropdown-menu">
+<a href="index.html">Home</a>
+<a href="login.html">Patient Dashboard</a>
+<a href="login.html">Doctor Dashboard</a>
+<a href="ingestible.html">Ingestible Tracker</a>
+</div>
+</div>
+
+
+
+
+
 <br>
 <br>
 <img src="helvora.png" alt="helvora logo" class="profile-img">
 <br>
+
 
 <div class="text-container">
 <div class="p1">
@@ -56,5 +94,80 @@
 
 <p>A simple, mindful way to manage your medication and track your well-being.</p>
 </div>
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
 </body>
+
+
+<br>
+<br>
+
+<body2>
+<!---- Medication Drug --->
+
+<div class="card-flex">
+    <div class="get-btn">
+        <button class="reminder-btn">
+        <i class="fa-regular fa-clock"></i>
+        Get Reminder sent!
+        </button>
+    </div>
+
+<div class="card">
+<h2>Good morning Ada</h2>
+<p>Tuesday, May 23. 3 reminders today</p>
+<br>
+<br>
+
+<!-- Drug 1 -->
+<div class="section">
+<div class="icon">
+<i class="fas fa-capsules"></i>
+</div>
+<div class="details">
+<h3>Lisinopril 10mg</h3>
+<p>Take with  breakfast. 8:00AM</p>
+
+</div>
+</div>
+
+<!-- Drug 2 -->
+<div class="section2">
+<div class="icon">
+<i class="fas fa-pills"></i>
+</div>
+<div class="details">
+<h3>Metformin 500mg</h3>
+<p>Take with lunch. 12:30PM Upcoming</p>
+</div>
+</div>
+
+<!-- Feeling Section -->
+<div class="feeling-section">
+<h3>How are you feeling today?</h3>
+<div class="emojis">
+<span class="emoji">😃</span>
+<span class="emoji">🙂</span>
+<span class="emoji">😐</span>
+<span class="emoji">😔</span>
+<span class="emoji">😢</span>
+</div>
+</div>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+</body2>
+
+
 </html>
